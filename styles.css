@@ -1,0 +1,90 @@
+:root {
+    --bg-color: #383838;
+    --card-color: rgb(65, 65, 65);
+    --button-color: rgb(155, 125, 255);
+    --button-text: white;
+    --violet: rgb(181, 146, 251);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background: #383838;
+    color: var(--violet);
+}
+
+/*Page 1*/
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+	grid-template-columns: repeat(2, 1fr);
+    gap: 0px 5px;
+    width: 100%;
+	height: 100%;
+    box-sizing: border-box;
+}
+
+.col1 {
+    padding-top: 15vh;
+
+}
+
+.col2 {
+    padding-top: 15vh;
+}
+
+.logo-img {
+    height: 35vh;
+    width: 50vh;
+}
+
+.title {
+    margin: 0px 20px 0px 97px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button {
+    margin-left: 40px;
+    padding: 10px 14px;
+    border: 1px solid var(--violet);
+    background: var(--button-color);
+    color: var(--button-text);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+button:hover {
+    background: rgb(100, 2, 220);
+    color: var(--button-text);
+    box-shadow: 0 0 10px rgb(86, 138, 249), 0 0 20px rgb(125, 60, 255);
+}
+
+.simulation-btn {
+    margin-top: 60px;
+}
+
+.info-box {
+    background: var(--card-color);
+    color: var(--violet);
+    margin: 20px 0px 20px 40px;
+    padding: 10px;
+    height: 45vh;
+    max-height: 100%; 
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px var(--violet) inset;
+    width: 70%;
+    box-sizing: border-box;
+    
+}
