@@ -8,7 +8,66 @@
 </head>
 <body>
     <div class="concept-container">
+
+        <div class="header">
+            <h2>Heroku Concept Simulation</h2>
+        </div>
+
+        <div class="deployment">
+            <h2>Deployment</h2>
+            <div class="form">
+                <input type="text" id="appName" placeholder="enter-app-name" />
+                <button class="deploy-btn" onclick="deployApp()"><span>DEPLOY</span></button>
+            </div>
+            <h2 class="terminal-header">Applications:</h2>
+            <div class="apps-list" id="appsList">
+                <div class="empty-state">
+                    <p class="no-app">NO APPLICATIONS DEPLOYED</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <h2>Platform Stats</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-value" id="totalApps">0</div>
+                    <div class="stat-label">Total Apps</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="totalDynos">0</div>
+                    <div class="stat-label">Active Dynos</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="totalRequests">0</div>
+                    <div class="stat-label">Total Requests</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="successRate">100%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="system-log">
+            <h2>System Log</h2>
+            <div class="terminal-header">&gt; Monitoring platform activities...</div>
+            <div class="log-terminal" id="systemLog">
+                <div class="log-entry log-system">
+                    <span class="log-timestamp">[SYSTEM]</span>
+                    <span>Heroku Platform Simulator initialized</span>
+                </div>
+                <div class="log-entry log-info">
+                    <span class="log-timestamp">[INFO]</span>
+                    <span>Awaiting deployment commands...</span>
+                </div>
+            </div>
+        </div>
+
     </div>
     <script src="script.js"></script>
+    <footer class="footer-sim">
+    &copy; 2025 Developed by Ankcris Letada, Czarmagne Arevalo, Nina Cristina Alzaga
+    </footer>
 </body>
 </html>

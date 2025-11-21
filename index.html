@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+
         <div class="col1">
             <img src="heroku-logo.png" alt="heroku logo" class="logo-img">
             <h1 class="title">
@@ -15,12 +16,17 @@
                 <br>Simulation
             </h1>
         </div>
+
         <div class="col2">
-            <button id="infoBtn">What is Heroku?</button>
-            <div class="info-box"></div>
+            <button onclick="herokuInfo()" class="info-btn">What is Heroku?</button>
+            <div id="info-box" class="info-box"></div>
             <button onclick="document.location='simulation.html'" class="simulation-btn">Simulation →</button>
         </div>
+
     </div>
     <script src="script.js"></script>
+    <footer>
+    &copy; 2025 Developed by Ankcris Letada, Czarmagne Arevalo, Nina Cristina Alzaga
+    </footer>
 </body>
 </html>
