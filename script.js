@@ -34,7 +34,8 @@ function herokuInfo() {
         "Allows developers to host applications online without managing physical servers.",
         "Supports multiple programming languages, including Java, Python, Ruby, Node.js, and more.",
         "Developers can deploy apps quickly using Git or the Heroku CLI, simplifying the release process.",
-        "Automatically adjusts resources so applications can handle more users when traffic increases."
+        "Automatically adjusts resources so applications can handle more users when traffic increases.",
+        "Why is Heroku now paid?"
     ];
 
     if (herokuStep < steps.length) {
