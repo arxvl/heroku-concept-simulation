@@ -29,7 +29,8 @@ let herokuStep = 0;
 
 function herokuInfo() {
     const steps = [
-        "Heroku is a fully managed container-based cloud platform for deploying modern applications.",
+        "Heroku is a cloud-based Platform-as-a-Service (PaaS) that allows developers to build, deploy, and manage applications without worrying about server or infrastructure management.",
+        "It is a fully managed container-based cloud platform for deploying modern applications.",
         "Allows developers to host applications online without managing physical servers.",
         "Supports multiple programming languages, including Java, Python, Ruby, Node.js, and more.",
         "Developers can deploy apps quickly using Git or the Heroku CLI, simplifying the release process.",
